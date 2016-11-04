@@ -19,7 +19,7 @@ public class TestPool : MonoBehaviour {
 
 	void CreateTest(){
 	
-		PoolManager.PoolsArray ["Cubes"].BirthGameObject (cubePre, cubePos, Quaternion.identity);
+		PoolManager.PoolsArray ["Cubes1"].BirthGameObject (cubePre, cubePos, Quaternion.identity);
 		PoolManager.PoolsArray ["Spheres"].BirthGameObject (spherePre, spherePos, Quaternion.identity);
 		cubePos += 2 *  Vector3.right;     //向右
 		spherePos += 2 * Vector3.forward;  //向前
